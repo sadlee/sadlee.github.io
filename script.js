@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://git.heroku.com/still-basin-24783.git/v1/task/';
+  var apiRoot = 'https://still-basin-24783.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
